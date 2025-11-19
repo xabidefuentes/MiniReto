@@ -30,7 +30,7 @@ Partial Class TablaVideojuego
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(800, 450)
         Name = "TablaVideojuego"
-        Text = "Form1"
+        Text = "Tabla de Videojuegos"
         ResumeLayout(False)
     End Sub
 
