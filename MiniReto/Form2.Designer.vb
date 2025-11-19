@@ -36,6 +36,7 @@ Partial Class Form2
         tbSpeedrun = New TextBox()
         tbSpeedrunner = New TextBox()
         tbAño = New TextBox()
+        CheckBox1 = New CheckBox()
         SuspendLayout()
         ' 
         ' lbTitulo
@@ -152,11 +153,22 @@ Partial Class Form2
         tbAño.Size = New Size(125, 27)
         tbAño.TabIndex = 13
         ' 
+        ' CheckBox1
+        ' 
+        CheckBox1.AutoSize = True
+        CheckBox1.Location = New Point(167, 330)
+        CheckBox1.Name = "CheckBox1"
+        CheckBox1.Size = New Size(103, 24)
+        CheckBox1.TabIndex = 14
+        CheckBox1.Text = "CheckBox1"
+        CheckBox1.UseVisualStyleBackColor = True
+        ' 
         ' Form2
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(1009, 473)
+        Controls.Add(CheckBox1)
         Controls.Add(tbAño)
         Controls.Add(tbSpeedrunner)
         Controls.Add(tbSpeedrun)
@@ -191,4 +203,5 @@ Partial Class Form2
     Friend WithEvents tbSpeedrun As TextBox
     Friend WithEvents tbSpeedrunner As TextBox
     Friend WithEvents tbAño As TextBox
+    Friend WithEvents CheckBox1 As CheckBox
 End Class
