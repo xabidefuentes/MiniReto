@@ -21,54 +21,54 @@
     End Sub
 
     ' Propiedades
-    Public Property Titulo As String
+    Public Property Titulos As String
         Get
-            Return Titulo
+            Return titulo
         End Get
         Set(value As String)
             titulo = value
         End Set
     End Property
 
-    Public Property Plataforma As String
+    Public Property Plataformas As String
         Get
-            Return Plataforma
+            Return plataforma
         End Get
         Set(value As String)
             plataforma = value
         End Set
     End Property
 
-    Public Property Estudio As String
+    Public Property Estudios As String
         Get
-            Return Estudio
+            Return estudio
         End Get
         Set(value As String)
             estudio = value
         End Set
     End Property
 
-    Public Property Anio As Integer
+    Public Property Anios As Integer
         Get
-            Return Anio
+            Return anio
         End Get
         Set(value As Integer)
             anio = value
         End Set
     End Property
 
-    Public Property TiempoSpeedrun As Double
+    Public Property TiempoSpeedruns As Double
         Get
-            Return TiempoSpeedrun
+            Return tiempoSpeedrun
         End Get
         Set(value As Double)
             tiempoSpeedrun = value
         End Set
     End Property
 
-    Public Property Recordista As String
+    Public Property Recordistas As String
         Get
-            Return Recordista
+            Return recordista
         End Get
         Set(value As String)
             recordista = value
