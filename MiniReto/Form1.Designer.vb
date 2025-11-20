@@ -24,7 +24,7 @@ Partial Class Form1
     Private Sub InitializeComponent()
         lbVideojuegos = New ListBox()
         btnGuardar = New Button()
-        btnEliminar = New Button()
+        btnAnadir = New Button()
         SuspendLayout()
         ' 
         ' lbVideojuegos
@@ -41,24 +41,24 @@ Partial Class Form1
         btnGuardar.Name = "btnGuardar"
         btnGuardar.Size = New Size(169, 44)
         btnGuardar.TabIndex = 1
-        btnGuardar.Text = "Button1"
+        btnGuardar.Text = "GUARDAR"
         btnGuardar.UseVisualStyleBackColor = True
         ' 
-        ' btnEliminar
+        ' btnAnadir
         ' 
-        btnEliminar.Location = New Point(441, 303)
-        btnEliminar.Name = "btnEliminar"
-        btnEliminar.Size = New Size(169, 44)
-        btnEliminar.TabIndex = 2
-        btnEliminar.Text = "ELIMINAR"
-        btnEliminar.UseVisualStyleBackColor = True
+        btnAnadir.Location = New Point(441, 316)
+        btnAnadir.Name = "btnAnadir"
+        btnAnadir.Size = New Size(169, 44)
+        btnAnadir.TabIndex = 2
+        btnAnadir.Text = "AÑADIR"
+        btnAnadir.UseVisualStyleBackColor = True
         ' 
         ' Form1
         ' 
-        AutoScaleDimensions = New SizeF(8F, 20F)
+        AutoScaleDimensions = New SizeF(8.0F, 20.0F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(800, 450)
-        Controls.Add(btnEliminar)
+        Controls.Add(btnAnadir)
         Controls.Add(btnGuardar)
         Controls.Add(lbVideojuegos)
         Name = "Form1"
@@ -68,5 +68,5 @@ Partial Class Form1
 
     Friend WithEvents lbVideojuegos As ListBox
     Friend WithEvents btnGuardar As Button
-    Friend WithEvents btnEliminar As Button
+    Friend WithEvents btnAnadir As Button
 End Class

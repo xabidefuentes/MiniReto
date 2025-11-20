@@ -7,6 +7,21 @@ Public Class Form1
     Private listaVideojuegos(99) As Videojuego
     Private cantidad As Integer = 0
 
+    Public Sub anadirVideojuego(videojuego As Videojuego)
+        ' Comprobar que no se supera el límite del array
+        If cantidad >= listaVideojuegos.Length Then
+            MessageBox.Show("No se pueden añadir más videojuegos (límite alcanzado).")
+            Return
+        End If
+
+        ' Añadir el videojuego al array
+        listaVideojuegos(cantidad) = videojuego
+        cantidad += 1
+
+        ' Actualizar la interfaz
+        ActualizarListBox()
+    End Sub
+
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         ' Cargar ejemplos al iniciar
         AñadirEjemplos()
@@ -24,6 +39,7 @@ Public Class Form1
         cantidad += 1
     End Sub
 
+
     Private Sub ActualizarListBox()
         lbVideojuegos.Items.Clear()
 
@@ -39,26 +55,40 @@ Public Class Form1
         Next
     End Sub
 
-    Private Sub btnEliminar_Click(sender As Object, e As EventArgs) Handles btnEliminar.Click
+    Private Sub btnGuardar_Click(sender As Object, e As EventArgs) Handles btnGuardar.Click
 
-        If lbVideojuegos.SelectedIndex = -1 Then
-            MessageBox.Show("Selecciona un videojuego para eliminar.")
+        If cantidad = 0 Then
+            MessageBox.Show("No hay datos para guardar.")
             Return
         End If
 
-        Dim index As Integer = lbVideojuegos.SelectedIndex
+        Dim saveDialog As New SaveFileDialog With {
+            .Filter = "Archivos de texto|*.txt",
+            .FileName = "videojuegos.txt"
+        }
 
-        ' Desplazar el array hacia arriba
-        For i As Integer = index To cantidad - 2
-            listaVideojuegos(i) = listaVideojuegos(i + 1)
-        Next
+        If saveDialog.ShowDialog() = DialogResult.OK Then
+            Using writer As New StreamWriter(saveDialog.FileName)
+                writer.WriteLine("TÍTULO;PLATAFORMA;ESTUDIO;AÑO;TIEMPO;RECORDISTA")
 
-        cantidad -= 1
+                For i As Integer = 0 To cantidad - 1
+                    writer.WriteLine(
+                        $"{listaVideojuegos(i).titulo};" &
+                        $"{listaVideojuegos(i).plataforma};" &
+                        $"{listaVideojuegos(i).estudio};" &
+                        $"{listaVideojuegos(i).anio};" &
+                        $"{listaVideojuegos(i).tiempoSpeedrun};" &
+                        $"{listaVideojuegos(i).recordista}"
+                    )
+                Next
+            End Using
 
-        ActualizarListBox()
+            MessageBox.Show("Archivo guardado correctamente.")
+        End If
+
     End Sub
 
-    Private Sub btnGuardar_Click_1(sender As Object, e As EventArgs) Handles btnGuardar.Click
+    Private Sub btnAnadir_Click_1(sender As Object, e As EventArgs) Handles btnAnadir.Click
         Form2.Show()
     End Sub
 End Class
