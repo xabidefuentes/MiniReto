@@ -19,41 +19,49 @@ Public Class Form1
         cantidad += 1
 
         ' Actualizar la interfaz
-        ActualizarListBox()
+        ActualizarListView()
     End Sub
+
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        ' Cargar ejemplos al iniciar
-        AñadirEjemplos()
-        ActualizarListBox()
+        lvVideojuegos.View = View.Details
+        lvVideojuegos.FullRowSelect = True
+        lvVideojuegos.GridLines = True
+
+        ' Agregar columnas
+        lvVideojuegos.Columns.Add("", 180)
+        lvVideojuegos.Columns.Add("", 180)
+        lvVideojuegos.Columns.Add("", 200)
+        lvVideojuegos.Columns.Add("", 130)
+        lvVideojuegos.Columns.Add("", 220)
+        lvVideojuegos.Columns.Add("", 230)
+        lvVideojuegos.HeaderStyle = ColumnHeaderStyle.None
+
+        ActualizarListView()
     End Sub
 
-    Private Sub AñadirEjemplos()
-        listaVideojuegos(cantidad) = New Videojuego("Super Mario 64", "Nintendo 64", "Nintendo", 1996, 3899, "cheese")
-        cantidad += 1
 
-        listaVideojuegos(cantidad) = New Videojuego("Portal", "PC", "Valve", 2007, 366, "CantEven")
-        cantidad += 1
+    Private Sub ActualizarListView()
 
-        listaVideojuegos(cantidad) = New Videojuego("Minecraft", "PC", "Mojang", 2011, 1320, "Illumina")
-        cantidad += 1
-    End Sub
-
-
-    Private Sub ActualizarListBox()
-        lbVideojuegos.Items.Clear()
+        lvVideojuegos.Items.Clear()
 
         For i As Integer = 0 To cantidad - 1
-            lbVideojuegos.Items.Add(
-                $"{listaVideojuegos(i).titulo} | " &
-                $"{listaVideojuegos(i).plataforma} | " &
-                $"{listaVideojuegos(i).estudio} | " &
-                $"{listaVideojuegos(i).anio} | " &
-                $"{listaVideojuegos(i).tiempoSpeedrun} | " &
-                $"{listaVideojuegos(i).recordista}"
-            )
+
+            Dim v As Videojuego = listaVideojuegos(i)
+
+            Dim item As New ListViewItem(v.titulo) ' celda 1
+            item.SubItems.Add(v.plataforma)        ' celda 2
+            item.SubItems.Add(v.estudio)           ' celda 3
+            item.SubItems.Add(v.anio.ToString())   ' celda 4
+            item.SubItems.Add(v.tiempoSpeedrun.ToString()) ' celda 5
+            item.SubItems.Add(v.recordista)        ' celda 6
+
+            lvVideojuegos.Items.Add(item)
+
         Next
+
     End Sub
+
 
     Private Sub btnGuardar_Click(sender As Object, e As EventArgs) Handles btnGuardar.Click
 
@@ -72,13 +80,10 @@ Public Class Form1
                 writer.WriteLine("TÍTULO;PLATAFORMA;ESTUDIO;AÑO;TIEMPO;RECORDISTA")
 
                 For i As Integer = 0 To cantidad - 1
+                    Dim v As Videojuego = listaVideojuegos(i)
+
                     writer.WriteLine(
-                        $"{listaVideojuegos(i).titulo};" &
-                        $"{listaVideojuegos(i).plataforma};" &
-                        $"{listaVideojuegos(i).estudio};" &
-                        $"{listaVideojuegos(i).anio};" &
-                        $"{listaVideojuegos(i).tiempoSpeedrun};" &
-                        $"{listaVideojuegos(i).recordista}"
+                        $"{v.titulo};{v.plataforma};{v.estudio};{v.anio};{v.tiempoSpeedrun};{v.recordista}"
                     )
                 Next
             End Using
@@ -88,7 +93,9 @@ Public Class Form1
 
     End Sub
 
-    Private Sub btnAnadir_Click_1(sender As Object, e As EventArgs) Handles btnAnadir.Click
+
+    Private Sub btnAnadir_Click(sender As Object, e As EventArgs) Handles btnAnadir.Click
         Form2.Show()
     End Sub
+
 End Class
