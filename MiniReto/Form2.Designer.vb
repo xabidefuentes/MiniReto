@@ -43,8 +43,12 @@ Partial Class Form2
         ' lbTitulo
         ' 
         lbTitulo.AutoSize = True
+<<<<<<< HEAD
         lbTitulo.Font = New Font("Segoe UI", 12F)
         lbTitulo.Location = New Point(62, 122)
+=======
+       
+>>>>>>> 18d31910d0fed8e66d3d8fd30b52cd0ed77efa6b
         lbTitulo.Margin = New Padding(4, 0, 4, 0)
         lbTitulo.Name = "lbTitulo"
         lbTitulo.Size = New Size(66, 28)
@@ -54,8 +58,12 @@ Partial Class Form2
         ' lbPlataforma
         ' 
         lbPlataforma.AutoSize = True
+<<<<<<< HEAD
         lbPlataforma.Font = New Font("Segoe UI", 12F)
         lbPlataforma.Location = New Point(62, 210)
+=======
+ 
+>>>>>>> 18d31910d0fed8e66d3d8fd30b52cd0ed77efa6b
         lbPlataforma.Margin = New Padding(4, 0, 4, 0)
         lbPlataforma.Name = "lbPlataforma"
         lbPlataforma.Size = New Size(111, 28)
@@ -65,8 +73,12 @@ Partial Class Form2
         ' lbEstudio
         ' 
         lbEstudio.AutoSize = True
+<<<<<<< HEAD
         lbEstudio.Font = New Font("Segoe UI", 12F)
         lbEstudio.Location = New Point(62, 309)
+=======
+        
+>>>>>>> 18d31910d0fed8e66d3d8fd30b52cd0ed77efa6b
         lbEstudio.Margin = New Padding(4, 0, 4, 0)
         lbEstudio.Name = "lbEstudio"
         lbEstudio.Size = New Size(201, 28)
@@ -76,8 +88,10 @@ Partial Class Form2
         ' lbAñoEstreno
         ' 
         lbAñoEstreno.AutoSize = True
+<<<<<<< HEAD
         lbAñoEstreno.Font = New Font("Segoe UI", 12F)
         lbAñoEstreno.Location = New Point(695, 319)
+>>>>>>> 18d31910d0fed8e66d3d8fd30b52cd0ed77efa6b
         lbAñoEstreno.Margin = New Padding(4, 0, 4, 0)
         lbAñoEstreno.Name = "lbAñoEstreno"
         lbAñoEstreno.Size = New Size(149, 28)
@@ -87,8 +101,10 @@ Partial Class Form2
         ' lbSpeedrun
         ' 
         lbSpeedrun.AutoSize = True
+<<<<<<< HEAD
         lbSpeedrun.Font = New Font("Segoe UI", 12F)
         lbSpeedrun.Location = New Point(695, 142)
+>>>>>>> 18d31910d0fed8e66d3d8fd30b52cd0ed77efa6b
         lbSpeedrun.Margin = New Padding(4, 0, 4, 0)
         lbSpeedrun.Name = "lbSpeedrun"
         lbSpeedrun.Size = New Size(195, 28)
@@ -98,8 +114,11 @@ Partial Class Form2
         ' lbNombreSpeedrun
         ' 
         lbNombreSpeedrun.AutoSize = True
+<<<<<<< HEAD
         lbNombreSpeedrun.Font = New Font("Segoe UI", 12F)
         lbNombreSpeedrun.Location = New Point(695, 230)
+
+>>>>>>> 18d31910d0fed8e66d3d8fd30b52cd0ed77efa6b
         lbNombreSpeedrun.Margin = New Padding(4, 0, 4, 0)
         lbNombreSpeedrun.Name = "lbNombreSpeedrun"
         lbNombreSpeedrun.Size = New Size(128, 28)
@@ -108,30 +127,39 @@ Partial Class Form2
         ' 
         ' btAñadir
         ' 
+<<<<<<< HEAD
         btAñadir.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         btAñadir.Location = New Point(375, 412)
+
+>>>>>>> 18d31910d0fed8e66d3d8fd30b52cd0ed77efa6b
         btAñadir.Margin = New Padding(4, 3, 4, 3)
         btAñadir.Name = "btAñadir"
-        btAñadir.Size = New Size(180, 60)
+        btAñadir.Size = New Size(164, 81)
         btAñadir.TabIndex = 6
         btAñadir.Text = "AÑADIR"
         btAñadir.UseVisualStyleBackColor = True
         ' 
         ' btVolver
         ' 
+<<<<<<< HEAD
         btVolver.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         btVolver.Location = New Point(683, 412)
+
+>>>>>>> 18d31910d0fed8e66d3d8fd30b52cd0ed77efa6b
         btVolver.Margin = New Padding(4, 3, 4, 3)
         btVolver.Name = "btVolver"
-        btVolver.Size = New Size(187, 60)
+        btVolver.Size = New Size(164, 81)
         btVolver.TabIndex = 7
         btVolver.Text = "VOLVER"
         btVolver.UseVisualStyleBackColor = True
         ' 
         ' tbTitulo
         ' 
+<<<<<<< HEAD
         tbTitulo.Font = New Font("Segoe UI", 12F)
         tbTitulo.Location = New Point(299, 118)
+
+>>>>>>> 18d31910d0fed8e66d3d8fd30b52cd0ed77efa6b
         tbTitulo.Margin = New Padding(4, 3, 4, 3)
         tbTitulo.Name = "tbTitulo"
         tbTitulo.Size = New Size(170, 34)
@@ -139,8 +167,11 @@ Partial Class Form2
         ' 
         ' tbPlataforma
         ' 
+<<<<<<< HEAD
         tbPlataforma.Font = New Font("Segoe UI", 12F)
         tbPlataforma.Location = New Point(299, 210)
+
+>>>>>>> 18d31910d0fed8e66d3d8fd30b52cd0ed77efa6b
         tbPlataforma.Margin = New Padding(4, 3, 4, 3)
         tbPlataforma.Name = "tbPlataforma"
         tbPlataforma.Size = New Size(170, 34)
@@ -148,8 +179,11 @@ Partial Class Form2
         ' 
         ' tbestudio
         ' 
+<<<<<<< HEAD
         tbestudio.Font = New Font("Segoe UI", 12F)
         tbestudio.Location = New Point(299, 305)
+=======
+>>>>>>> 18d31910d0fed8e66d3d8fd30b52cd0ed77efa6b
         tbestudio.Margin = New Padding(4, 3, 4, 3)
         tbestudio.Name = "tbestudio"
         tbestudio.Size = New Size(170, 34)
@@ -157,8 +191,12 @@ Partial Class Form2
         ' 
         ' tbSpeedrun
         ' 
+<<<<<<< HEAD
         tbSpeedrun.Font = New Font("Segoe UI", 12F)
         tbSpeedrun.Location = New Point(960, 142)
+=======
+
+>>>>>>> 18d31910d0fed8e66d3d8fd30b52cd0ed77efa6b
         tbSpeedrun.Margin = New Padding(4, 3, 4, 3)
         tbSpeedrun.Name = "tbSpeedrun"
         tbSpeedrun.Size = New Size(170, 34)
@@ -166,8 +204,11 @@ Partial Class Form2
         ' 
         ' tbSpeedrunner
         ' 
+<<<<<<< HEAD
         tbSpeedrunner.Font = New Font("Segoe UI", 12F)
         tbSpeedrunner.Location = New Point(960, 226)
+=======
+>>>>>>> 18d31910d0fed8e66d3d8fd30b52cd0ed77efa6b
         tbSpeedrunner.Margin = New Padding(4, 3, 4, 3)
         tbSpeedrunner.Name = "tbSpeedrunner"
         tbSpeedrunner.Size = New Size(170, 34)
@@ -175,8 +216,12 @@ Partial Class Form2
         ' 
         ' tbAño
         ' 
+<<<<<<< HEAD
         tbAño.Font = New Font("Segoe UI", 12F)
         tbAño.Location = New Point(960, 320)
+=======
+
+>>>>>>> 18d31910d0fed8e66d3d8fd30b52cd0ed77efa6b
         tbAño.Margin = New Padding(4, 3, 4, 3)
         tbAño.Name = "tbAño"
         tbAño.Size = New Size(170, 34)
@@ -186,7 +231,10 @@ Partial Class Form2
         ' 
         lbTituloPrincipal.AutoSize = True
         lbTituloPrincipal.Font = New Font("Reem Kufi", 18F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+<<<<<<< HEAD
         lbTituloPrincipal.Location = New Point(458, 25)
+=======
+>>>>>>> 18d31910d0fed8e66d3d8fd30b52cd0ed77efa6b
         lbTituloPrincipal.Margin = New Padding(4, 0, 4, 0)
         lbTituloPrincipal.Name = "lbTituloPrincipal"
         lbTituloPrincipal.Size = New Size(354, 54)
@@ -197,7 +245,10 @@ Partial Class Form2
         ' 
         AutoScaleDimensions = New SizeF(11F, 22F)
         AutoScaleMode = AutoScaleMode.Font
+<<<<<<< HEAD
         ClientSize = New Size(1241, 520)
+=======
+>>>>>>> 18d31910d0fed8e66d3d8fd30b52cd0ed77efa6b
         Controls.Add(lbTituloPrincipal)
         Controls.Add(tbAño)
         Controls.Add(tbSpeedrunner)
