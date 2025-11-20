@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form2
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,9 +20,8 @@ Partial Class Form2
     'NOTA: el Diseñador de Windows Forms necesita el siguiente procedimiento
     'Se puede modificar usando el Diseñador de Windows Forms.  
     'No lo modifique con el editor de código.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form2))
         lbTitulo = New Label()
         lbPlataforma = New Label()
         lbEstudio = New Label()
@@ -39,216 +38,157 @@ Partial Class Form2
         tbAño = New TextBox()
         lbTituloPrincipal = New Label()
         SuspendLayout()
-        ' 
+        '
         ' lbTitulo
-        ' 
+        '
         lbTitulo.AutoSize = True
-<<<<<<< HEAD
-        lbTitulo.Font = New Font("Segoe UI", 12F)
-        lbTitulo.Location = New Point(62, 122)
-=======
-       
->>>>>>> 18d31910d0fed8e66d3d8fd30b52cd0ed77efa6b
+        lbTitulo.Font = New Font("Verdana", 10.8F)
+        lbTitulo.Location = New Point(59, 118)
         lbTitulo.Margin = New Padding(4, 0, 4, 0)
         lbTitulo.Name = "lbTitulo"
-        lbTitulo.Size = New Size(66, 28)
+        lbTitulo.Size = New Size(68, 22)
         lbTitulo.TabIndex = 0
         lbTitulo.Text = "Titulo:"
-        ' 
+        '
         ' lbPlataforma
-        ' 
+        '
         lbPlataforma.AutoSize = True
-<<<<<<< HEAD
-        lbPlataforma.Font = New Font("Segoe UI", 12F)
-        lbPlataforma.Location = New Point(62, 210)
-=======
- 
->>>>>>> 18d31910d0fed8e66d3d8fd30b52cd0ed77efa6b
+        lbPlataforma.Font = New Font("Verdana", 10.8F)
+        lbPlataforma.Location = New Point(59, 206)
         lbPlataforma.Margin = New Padding(4, 0, 4, 0)
         lbPlataforma.Name = "lbPlataforma"
-        lbPlataforma.Size = New Size(111, 28)
+        lbPlataforma.Size = New Size(117, 22)
         lbPlataforma.TabIndex = 1
         lbPlataforma.Text = "Plataforma:"
-        ' 
+        '
         ' lbEstudio
-        ' 
+        '
         lbEstudio.AutoSize = True
-<<<<<<< HEAD
-        lbEstudio.Font = New Font("Segoe UI", 12F)
-        lbEstudio.Location = New Point(62, 309)
-=======
-        
->>>>>>> 18d31910d0fed8e66d3d8fd30b52cd0ed77efa6b
+        lbEstudio.Font = New Font("Verdana", 10.8F)
+        lbEstudio.Location = New Point(59, 305)
         lbEstudio.Margin = New Padding(4, 0, 4, 0)
         lbEstudio.Name = "lbEstudio"
-        lbEstudio.Size = New Size(201, 28)
+        lbEstudio.Size = New Size(207, 22)
         lbEstudio.TabIndex = 2
         lbEstudio.Text = "Estudio de desarrollo:"
-        ' 
+        '
         ' lbAñoEstreno
-        ' 
+        '
         lbAñoEstreno.AutoSize = True
-<<<<<<< HEAD
-        lbAñoEstreno.Font = New Font("Segoe UI", 12F)
-        lbAñoEstreno.Location = New Point(695, 319)
->>>>>>> 18d31910d0fed8e66d3d8fd30b52cd0ed77efa6b
+        lbAñoEstreno.Font = New Font("Verdana", 10.8F)
+        lbAñoEstreno.Location = New Point(621, 294)
         lbAñoEstreno.Margin = New Padding(4, 0, 4, 0)
         lbAñoEstreno.Name = "lbAñoEstreno"
-        lbAñoEstreno.Size = New Size(149, 28)
+        lbAñoEstreno.Size = New Size(154, 22)
         lbAñoEstreno.TabIndex = 3
         lbAñoEstreno.Text = "Año de estreno:"
-        ' 
+        '
         ' lbSpeedrun
-        ' 
+        '
         lbSpeedrun.AutoSize = True
-<<<<<<< HEAD
-        lbSpeedrun.Font = New Font("Segoe UI", 12F)
-        lbSpeedrun.Location = New Point(695, 142)
->>>>>>> 18d31910d0fed8e66d3d8fd30b52cd0ed77efa6b
+        lbSpeedrun.Font = New Font("Verdana", 10.8F)
+        lbSpeedrun.Location = New Point(621, 117)
         lbSpeedrun.Margin = New Padding(4, 0, 4, 0)
         lbSpeedrun.Name = "lbSpeedrun"
-        lbSpeedrun.Size = New Size(195, 28)
+        lbSpeedrun.Size = New Size(202, 22)
         lbSpeedrun.TabIndex = 4
         lbSpeedrun.Text = "Tiempo de speedrun:"
-        ' 
+        '
         ' lbNombreSpeedrun
-        ' 
+        '
         lbNombreSpeedrun.AutoSize = True
-<<<<<<< HEAD
-        lbNombreSpeedrun.Font = New Font("Segoe UI", 12F)
-        lbNombreSpeedrun.Location = New Point(695, 230)
-
->>>>>>> 18d31910d0fed8e66d3d8fd30b52cd0ed77efa6b
+        lbNombreSpeedrun.Font = New Font("Verdana", 10.8F)
+        lbNombreSpeedrun.Location = New Point(621, 205)
         lbNombreSpeedrun.Margin = New Padding(4, 0, 4, 0)
         lbNombreSpeedrun.Name = "lbNombreSpeedrun"
-        lbNombreSpeedrun.Size = New Size(128, 28)
+        lbNombreSpeedrun.Size = New Size(134, 22)
         lbNombreSpeedrun.TabIndex = 5
         lbNombreSpeedrun.Text = "Speedrunner:"
-        ' 
+        '
         ' btAñadir
-        ' 
-<<<<<<< HEAD
-        btAñadir.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        btAñadir.Location = New Point(375, 412)
-
->>>>>>> 18d31910d0fed8e66d3d8fd30b52cd0ed77efa6b
+        '
+        btAñadir.Location = New Point(243, 426)
         btAñadir.Margin = New Padding(4, 3, 4, 3)
         btAñadir.Name = "btAñadir"
         btAñadir.Size = New Size(164, 81)
         btAñadir.TabIndex = 6
         btAñadir.Text = "AÑADIR"
         btAñadir.UseVisualStyleBackColor = True
-        ' 
+        '
         ' btVolver
-        ' 
-<<<<<<< HEAD
-        btVolver.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        btVolver.Location = New Point(683, 412)
-
->>>>>>> 18d31910d0fed8e66d3d8fd30b52cd0ed77efa6b
+        '
+        btVolver.Location = New Point(611, 426)
         btVolver.Margin = New Padding(4, 3, 4, 3)
         btVolver.Name = "btVolver"
         btVolver.Size = New Size(164, 81)
         btVolver.TabIndex = 7
         btVolver.Text = "VOLVER"
         btVolver.UseVisualStyleBackColor = True
-        ' 
+        '
         ' tbTitulo
-        ' 
-<<<<<<< HEAD
-        tbTitulo.Font = New Font("Segoe UI", 12F)
-        tbTitulo.Location = New Point(299, 118)
-
->>>>>>> 18d31910d0fed8e66d3d8fd30b52cd0ed77efa6b
+        '
+        tbTitulo.Location = New Point(296, 114)
         tbTitulo.Margin = New Padding(4, 3, 4, 3)
         tbTitulo.Name = "tbTitulo"
-        tbTitulo.Size = New Size(170, 34)
+        tbTitulo.Size = New Size(170, 29)
         tbTitulo.TabIndex = 8
-        ' 
+        '
         ' tbPlataforma
-        ' 
-<<<<<<< HEAD
-        tbPlataforma.Font = New Font("Segoe UI", 12F)
-        tbPlataforma.Location = New Point(299, 210)
-
->>>>>>> 18d31910d0fed8e66d3d8fd30b52cd0ed77efa6b
+        '
+        tbPlataforma.Location = New Point(296, 206)
         tbPlataforma.Margin = New Padding(4, 3, 4, 3)
         tbPlataforma.Name = "tbPlataforma"
-        tbPlataforma.Size = New Size(170, 34)
+        tbPlataforma.Size = New Size(170, 29)
         tbPlataforma.TabIndex = 9
-        ' 
+        '
         ' tbestudio
-        ' 
-<<<<<<< HEAD
-        tbestudio.Font = New Font("Segoe UI", 12F)
-        tbestudio.Location = New Point(299, 305)
-=======
->>>>>>> 18d31910d0fed8e66d3d8fd30b52cd0ed77efa6b
+        '
+        tbestudio.Location = New Point(296, 301)
         tbestudio.Margin = New Padding(4, 3, 4, 3)
         tbestudio.Name = "tbestudio"
-        tbestudio.Size = New Size(170, 34)
+        tbestudio.Size = New Size(170, 29)
         tbestudio.TabIndex = 10
-        ' 
+        '
         ' tbSpeedrun
-        ' 
-<<<<<<< HEAD
-        tbSpeedrun.Font = New Font("Segoe UI", 12F)
-        tbSpeedrun.Location = New Point(960, 142)
-=======
-
->>>>>>> 18d31910d0fed8e66d3d8fd30b52cd0ed77efa6b
+        '
+        tbSpeedrun.Location = New Point(886, 117)
         tbSpeedrun.Margin = New Padding(4, 3, 4, 3)
         tbSpeedrun.Name = "tbSpeedrun"
-        tbSpeedrun.Size = New Size(170, 34)
+        tbSpeedrun.Size = New Size(170, 29)
         tbSpeedrun.TabIndex = 11
-        ' 
+        '
         ' tbSpeedrunner
-        ' 
-<<<<<<< HEAD
-        tbSpeedrunner.Font = New Font("Segoe UI", 12F)
-        tbSpeedrunner.Location = New Point(960, 226)
-=======
->>>>>>> 18d31910d0fed8e66d3d8fd30b52cd0ed77efa6b
+        '
+        tbSpeedrunner.Location = New Point(886, 201)
         tbSpeedrunner.Margin = New Padding(4, 3, 4, 3)
         tbSpeedrunner.Name = "tbSpeedrunner"
-        tbSpeedrunner.Size = New Size(170, 34)
+        tbSpeedrunner.Size = New Size(170, 29)
         tbSpeedrunner.TabIndex = 12
-        ' 
+        '
         ' tbAño
-        ' 
-<<<<<<< HEAD
-        tbAño.Font = New Font("Segoe UI", 12F)
-        tbAño.Location = New Point(960, 320)
-=======
-
->>>>>>> 18d31910d0fed8e66d3d8fd30b52cd0ed77efa6b
+        '
+        tbAño.Location = New Point(886, 295)
         tbAño.Margin = New Padding(4, 3, 4, 3)
         tbAño.Name = "tbAño"
-        tbAño.Size = New Size(170, 34)
+        tbAño.Size = New Size(170, 29)
         tbAño.TabIndex = 13
-        ' 
+        '
         ' lbTituloPrincipal
-        ' 
+        '
         lbTituloPrincipal.AutoSize = True
-        lbTituloPrincipal.Font = New Font("Reem Kufi", 18F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-<<<<<<< HEAD
-        lbTituloPrincipal.Location = New Point(458, 25)
-=======
->>>>>>> 18d31910d0fed8e66d3d8fd30b52cd0ed77efa6b
+        lbTituloPrincipal.Font = New Font("Reem Kufi", 18.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lbTituloPrincipal.Location = New Point(469, 10)
         lbTituloPrincipal.Margin = New Padding(4, 0, 4, 0)
         lbTituloPrincipal.Name = "lbTituloPrincipal"
         lbTituloPrincipal.Size = New Size(354, 54)
         lbTituloPrincipal.TabIndex = 14
         lbTituloPrincipal.Text = "AÑADIR VIDEOJUEGO"
-        ' 
+        '
         ' Form2
-        ' 
-        AutoScaleDimensions = New SizeF(11F, 22F)
+        '
+        AutoScaleDimensions = New SizeF(11.0F, 22.0F)
         AutoScaleMode = AutoScaleMode.Font
-<<<<<<< HEAD
-        ClientSize = New Size(1241, 520)
-=======
->>>>>>> 18d31910d0fed8e66d3d8fd30b52cd0ed77efa6b
+        ClientSize = New Size(1191, 557)
         Controls.Add(lbTituloPrincipal)
         Controls.Add(tbAño)
         Controls.Add(tbSpeedrunner)
@@ -265,10 +205,9 @@ Partial Class Form2
         Controls.Add(lbPlataforma)
         Controls.Add(lbTitulo)
         Font = New Font("Verdana", 10.8F)
-        Icon = CType(resources.GetObject("$this.Icon"), Icon)
         Margin = New Padding(4, 3, 4, 3)
         Name = "Form2"
-        Text = "AÑADIR VIDEOJUEGO"
+        Text = "Form2"
         ResumeLayout(False)
         PerformLayout()
     End Sub
