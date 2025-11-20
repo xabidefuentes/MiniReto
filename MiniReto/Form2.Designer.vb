@@ -106,6 +106,8 @@ Partial Class Form2
         lbNombreSpeedrun.Text = "Speedrunner:"
         '
         ' btAñadir
+        ' 
+        btAñadir.Location = New Point(243, 426)
         '
         btAñadir.Location = New Point(243, 426)
         btAñadir.Margin = New Padding(4, 3, 4, 3)
@@ -116,8 +118,8 @@ Partial Class Form2
         btAñadir.UseVisualStyleBackColor = True
         '
         ' btVolver
-        '
-        btVolver.Location = New Point(611, 426)
+        ' 
+        btVolver.Location = New Point(899, 415)
         btVolver.Margin = New Padding(4, 3, 4, 3)
         btVolver.Name = "btVolver"
         btVolver.Size = New Size(164, 81)
@@ -126,48 +128,48 @@ Partial Class Form2
         btVolver.UseVisualStyleBackColor = True
         '
         ' tbTitulo
-        '
-        tbTitulo.Location = New Point(296, 114)
+        ' 
+        tbTitulo.Location = New Point(351, 114)
         tbTitulo.Margin = New Padding(4, 3, 4, 3)
         tbTitulo.Name = "tbTitulo"
         tbTitulo.Size = New Size(170, 29)
         tbTitulo.TabIndex = 8
         '
         ' tbPlataforma
-        '
-        tbPlataforma.Location = New Point(296, 206)
+        ' 
+        tbPlataforma.Location = New Point(351, 206)
         tbPlataforma.Margin = New Padding(4, 3, 4, 3)
         tbPlataforma.Name = "tbPlataforma"
         tbPlataforma.Size = New Size(170, 29)
         tbPlataforma.TabIndex = 9
         '
         ' tbestudio
-        '
-        tbestudio.Location = New Point(296, 301)
+        ' 
+        tbestudio.Location = New Point(351, 301)
         tbestudio.Margin = New Padding(4, 3, 4, 3)
         tbestudio.Name = "tbestudio"
         tbestudio.Size = New Size(170, 29)
         tbestudio.TabIndex = 10
         '
         ' tbSpeedrun
-        '
-        tbSpeedrun.Location = New Point(886, 117)
+        ' 
+        tbSpeedrun.Location = New Point(1031, 118)
         tbSpeedrun.Margin = New Padding(4, 3, 4, 3)
         tbSpeedrun.Name = "tbSpeedrun"
         tbSpeedrun.Size = New Size(170, 29)
         tbSpeedrun.TabIndex = 11
         '
         ' tbSpeedrunner
-        '
-        tbSpeedrunner.Location = New Point(886, 201)
+        ' 
+        tbSpeedrunner.Location = New Point(1031, 202)
         tbSpeedrunner.Margin = New Padding(4, 3, 4, 3)
         tbSpeedrunner.Name = "tbSpeedrunner"
         tbSpeedrunner.Size = New Size(170, 29)
         tbSpeedrunner.TabIndex = 12
         '
         ' tbAño
-        '
-        tbAño.Location = New Point(886, 295)
+        ' 
+        tbAño.Location = New Point(1031, 296)
         tbAño.Margin = New Padding(4, 3, 4, 3)
         tbAño.Name = "tbAño"
         tbAño.Size = New Size(170, 29)
@@ -176,7 +178,7 @@ Partial Class Form2
         ' lbTituloPrincipal
         '
         lbTituloPrincipal.AutoSize = True
-        lbTituloPrincipal.Font = New Font("Reem Kufi", 18.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lbTituloPrincipal.Font = New Font("Reem Kufi", 18.0F, FontStyle.Bold, GraphicsUnit.Point, 0)
         lbTituloPrincipal.Location = New Point(469, 10)
         lbTituloPrincipal.Margin = New Padding(4, 0, 4, 0)
         lbTituloPrincipal.Name = "lbTituloPrincipal"
