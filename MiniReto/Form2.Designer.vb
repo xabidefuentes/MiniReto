@@ -43,7 +43,7 @@ Partial Class Form2
         ' 
         lbTitulo.AutoSize = True
         lbTitulo.Font = New Font("Verdana", 10.8F)
-        lbTitulo.Location = New Point(114, 118)
+        lbTitulo.Location = New Point(59, 118)
         lbTitulo.Margin = New Padding(4, 0, 4, 0)
         lbTitulo.Name = "lbTitulo"
         lbTitulo.Size = New Size(68, 22)
@@ -54,7 +54,7 @@ Partial Class Form2
         ' 
         lbPlataforma.AutoSize = True
         lbPlataforma.Font = New Font("Verdana", 10.8F)
-        lbPlataforma.Location = New Point(114, 206)
+        lbPlataforma.Location = New Point(59, 206)
         lbPlataforma.Margin = New Padding(4, 0, 4, 0)
         lbPlataforma.Name = "lbPlataforma"
         lbPlataforma.Size = New Size(117, 22)
@@ -65,7 +65,7 @@ Partial Class Form2
         ' 
         lbEstudio.AutoSize = True
         lbEstudio.Font = New Font("Verdana", 10.8F)
-        lbEstudio.Location = New Point(114, 305)
+        lbEstudio.Location = New Point(59, 305)
         lbEstudio.Margin = New Padding(4, 0, 4, 0)
         lbEstudio.Name = "lbEstudio"
         lbEstudio.Size = New Size(207, 22)
@@ -76,7 +76,7 @@ Partial Class Form2
         ' 
         lbAñoEstreno.AutoSize = True
         lbAñoEstreno.Font = New Font("Verdana", 10.8F)
-        lbAñoEstreno.Location = New Point(766, 295)
+        lbAñoEstreno.Location = New Point(621, 294)
         lbAñoEstreno.Margin = New Padding(4, 0, 4, 0)
         lbAñoEstreno.Name = "lbAñoEstreno"
         lbAñoEstreno.Size = New Size(154, 22)
@@ -87,7 +87,7 @@ Partial Class Form2
         ' 
         lbSpeedrun.AutoSize = True
         lbSpeedrun.Font = New Font("Verdana", 10.8F)
-        lbSpeedrun.Location = New Point(766, 118)
+        lbSpeedrun.Location = New Point(621, 117)
         lbSpeedrun.Margin = New Padding(4, 0, 4, 0)
         lbSpeedrun.Name = "lbSpeedrun"
         lbSpeedrun.Size = New Size(202, 22)
@@ -98,7 +98,7 @@ Partial Class Form2
         ' 
         lbNombreSpeedrun.AutoSize = True
         lbNombreSpeedrun.Font = New Font("Verdana", 10.8F)
-        lbNombreSpeedrun.Location = New Point(766, 206)
+        lbNombreSpeedrun.Location = New Point(621, 205)
         lbNombreSpeedrun.Margin = New Padding(4, 0, 4, 0)
         lbNombreSpeedrun.Name = "lbNombreSpeedrun"
         lbNombreSpeedrun.Size = New Size(134, 22)
@@ -107,27 +107,27 @@ Partial Class Form2
         ' 
         ' btAñadir
         ' 
-        btAñadir.Location = New Point(591, 415)
+        btAñadir.Location = New Point(243, 426)
         btAñadir.Margin = New Padding(4, 3, 4, 3)
         btAñadir.Name = "btAñadir"
-        btAñadir.Size = New Size(180, 60)
+        btAñadir.Size = New Size(164, 81)
         btAñadir.TabIndex = 6
         btAñadir.Text = "AÑADIR"
         btAñadir.UseVisualStyleBackColor = True
         ' 
         ' btVolver
         ' 
-        btVolver.Location = New Point(899, 415)
+        btVolver.Location = New Point(611, 426)
         btVolver.Margin = New Padding(4, 3, 4, 3)
         btVolver.Name = "btVolver"
-        btVolver.Size = New Size(187, 60)
+        btVolver.Size = New Size(164, 81)
         btVolver.TabIndex = 7
         btVolver.Text = "VOLVER"
         btVolver.UseVisualStyleBackColor = True
         ' 
         ' tbTitulo
         ' 
-        tbTitulo.Location = New Point(351, 114)
+        tbTitulo.Location = New Point(296, 114)
         tbTitulo.Margin = New Padding(4, 3, 4, 3)
         tbTitulo.Name = "tbTitulo"
         tbTitulo.Size = New Size(170, 29)
@@ -135,7 +135,7 @@ Partial Class Form2
         ' 
         ' tbPlataforma
         ' 
-        tbPlataforma.Location = New Point(351, 206)
+        tbPlataforma.Location = New Point(296, 206)
         tbPlataforma.Margin = New Padding(4, 3, 4, 3)
         tbPlataforma.Name = "tbPlataforma"
         tbPlataforma.Size = New Size(170, 29)
@@ -143,7 +143,7 @@ Partial Class Form2
         ' 
         ' tbestudio
         ' 
-        tbestudio.Location = New Point(351, 301)
+        tbestudio.Location = New Point(296, 301)
         tbestudio.Margin = New Padding(4, 3, 4, 3)
         tbestudio.Name = "tbestudio"
         tbestudio.Size = New Size(170, 29)
@@ -151,7 +151,7 @@ Partial Class Form2
         ' 
         ' tbSpeedrun
         ' 
-        tbSpeedrun.Location = New Point(1031, 118)
+        tbSpeedrun.Location = New Point(886, 117)
         tbSpeedrun.Margin = New Padding(4, 3, 4, 3)
         tbSpeedrun.Name = "tbSpeedrun"
         tbSpeedrun.Size = New Size(170, 29)
@@ -159,7 +159,7 @@ Partial Class Form2
         ' 
         ' tbSpeedrunner
         ' 
-        tbSpeedrunner.Location = New Point(1031, 202)
+        tbSpeedrunner.Location = New Point(886, 201)
         tbSpeedrunner.Margin = New Padding(4, 3, 4, 3)
         tbSpeedrunner.Name = "tbSpeedrunner"
         tbSpeedrunner.Size = New Size(170, 29)
@@ -167,7 +167,7 @@ Partial Class Form2
         ' 
         ' tbAño
         ' 
-        tbAño.Location = New Point(1031, 296)
+        tbAño.Location = New Point(886, 295)
         tbAño.Margin = New Padding(4, 3, 4, 3)
         tbAño.Name = "tbAño"
         tbAño.Size = New Size(170, 29)
@@ -176,7 +176,7 @@ Partial Class Form2
         ' lbTituloPrincipal
         ' 
         lbTituloPrincipal.AutoSize = True
-        lbTituloPrincipal.Font = New Font("Reem Kufi", 18F, FontStyle.Bold, GraphicsUnit.Point, 0)
+        lbTituloPrincipal.Font = New Font("Reem Kufi", 18F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         lbTituloPrincipal.Location = New Point(469, 10)
         lbTituloPrincipal.Margin = New Padding(4, 0, 4, 0)
         lbTituloPrincipal.Name = "lbTituloPrincipal"
@@ -188,7 +188,7 @@ Partial Class Form2
         ' 
         AutoScaleDimensions = New SizeF(11F, 22F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(1387, 520)
+        ClientSize = New Size(1191, 557)
         Controls.Add(lbTituloPrincipal)
         Controls.Add(tbAño)
         Controls.Add(tbSpeedrunner)
