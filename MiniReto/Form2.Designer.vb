@@ -38,9 +38,9 @@ Partial Class Form2
         tbAño = New TextBox()
         lbTituloPrincipal = New Label()
         SuspendLayout()
-        '
+        ' 
         ' lbTitulo
-        '
+        ' 
         lbTitulo.AutoSize = True
         lbTitulo.Font = New Font("Verdana", 10.8F)
         lbTitulo.Location = New Point(59, 118)
@@ -49,9 +49,9 @@ Partial Class Form2
         lbTitulo.Size = New Size(68, 22)
         lbTitulo.TabIndex = 0
         lbTitulo.Text = "Titulo:"
-        '
+        ' 
         ' lbPlataforma
-        '
+        ' 
         lbPlataforma.AutoSize = True
         lbPlataforma.Font = New Font("Verdana", 10.8F)
         lbPlataforma.Location = New Point(59, 206)
@@ -60,9 +60,9 @@ Partial Class Form2
         lbPlataforma.Size = New Size(117, 22)
         lbPlataforma.TabIndex = 1
         lbPlataforma.Text = "Plataforma:"
-        '
+        ' 
         ' lbEstudio
-        '
+        ' 
         lbEstudio.AutoSize = True
         lbEstudio.Font = New Font("Verdana", 10.8F)
         lbEstudio.Location = New Point(59, 305)
@@ -71,9 +71,9 @@ Partial Class Form2
         lbEstudio.Size = New Size(207, 22)
         lbEstudio.TabIndex = 2
         lbEstudio.Text = "Estudio de desarrollo:"
-        '
+        ' 
         ' lbAñoEstreno
-        '
+        ' 
         lbAñoEstreno.AutoSize = True
         lbAñoEstreno.Font = New Font("Verdana", 10.8F)
         lbAñoEstreno.Location = New Point(621, 294)
@@ -82,9 +82,9 @@ Partial Class Form2
         lbAñoEstreno.Size = New Size(154, 22)
         lbAñoEstreno.TabIndex = 3
         lbAñoEstreno.Text = "Año de estreno:"
-        '
+        ' 
         ' lbSpeedrun
-        '
+        ' 
         lbSpeedrun.AutoSize = True
         lbSpeedrun.Font = New Font("Verdana", 10.8F)
         lbSpeedrun.Location = New Point(621, 117)
@@ -93,9 +93,9 @@ Partial Class Form2
         lbSpeedrun.Size = New Size(202, 22)
         lbSpeedrun.TabIndex = 4
         lbSpeedrun.Text = "Tiempo de speedrun:"
-        '
+        ' 
         ' lbNombreSpeedrun
-        '
+        ' 
         lbNombreSpeedrun.AutoSize = True
         lbNombreSpeedrun.Font = New Font("Verdana", 10.8F)
         lbNombreSpeedrun.Location = New Point(621, 205)
@@ -104,11 +104,9 @@ Partial Class Form2
         lbNombreSpeedrun.Size = New Size(134, 22)
         lbNombreSpeedrun.TabIndex = 5
         lbNombreSpeedrun.Text = "Speedrunner:"
-        '
+        ' 
         ' btAñadir
         ' 
-        btAñadir.Location = New Point(243, 426)
-        '
         btAñadir.Location = New Point(243, 426)
         btAñadir.Margin = New Padding(4, 3, 4, 3)
         btAñadir.Name = "btAñadir"
@@ -116,7 +114,7 @@ Partial Class Form2
         btAñadir.TabIndex = 6
         btAñadir.Text = "AÑADIR"
         btAñadir.UseVisualStyleBackColor = True
-        '
+        ' 
         ' btVolver
         ' 
         btVolver.Location = New Point(899, 415)
@@ -126,7 +124,7 @@ Partial Class Form2
         btVolver.TabIndex = 7
         btVolver.Text = "VOLVER"
         btVolver.UseVisualStyleBackColor = True
-        '
+        ' 
         ' tbTitulo
         ' 
         tbTitulo.Location = New Point(351, 114)
@@ -134,7 +132,7 @@ Partial Class Form2
         tbTitulo.Name = "tbTitulo"
         tbTitulo.Size = New Size(170, 29)
         tbTitulo.TabIndex = 8
-        '
+        ' 
         ' tbPlataforma
         ' 
         tbPlataforma.Location = New Point(351, 206)
@@ -142,7 +140,7 @@ Partial Class Form2
         tbPlataforma.Name = "tbPlataforma"
         tbPlataforma.Size = New Size(170, 29)
         tbPlataforma.TabIndex = 9
-        '
+        ' 
         ' tbestudio
         ' 
         tbestudio.Location = New Point(351, 301)
@@ -150,7 +148,7 @@ Partial Class Form2
         tbestudio.Name = "tbestudio"
         tbestudio.Size = New Size(170, 29)
         tbestudio.TabIndex = 10
-        '
+        ' 
         ' tbSpeedrun
         ' 
         tbSpeedrun.Location = New Point(1031, 118)
@@ -158,7 +156,7 @@ Partial Class Form2
         tbSpeedrun.Name = "tbSpeedrun"
         tbSpeedrun.Size = New Size(170, 29)
         tbSpeedrun.TabIndex = 11
-        '
+        ' 
         ' tbSpeedrunner
         ' 
         tbSpeedrunner.Location = New Point(1031, 202)
@@ -166,7 +164,7 @@ Partial Class Form2
         tbSpeedrunner.Name = "tbSpeedrunner"
         tbSpeedrunner.Size = New Size(170, 29)
         tbSpeedrunner.TabIndex = 12
-        '
+        ' 
         ' tbAño
         ' 
         tbAño.Location = New Point(1031, 296)
@@ -174,23 +172,23 @@ Partial Class Form2
         tbAño.Name = "tbAño"
         tbAño.Size = New Size(170, 29)
         tbAño.TabIndex = 13
-        '
+        ' 
         ' lbTituloPrincipal
-        '
+        ' 
         lbTituloPrincipal.AutoSize = True
-        lbTituloPrincipal.Font = New Font("Reem Kufi", 18.0F, FontStyle.Bold, GraphicsUnit.Point, 0)
+        lbTituloPrincipal.Font = New Font("Microsoft Sans Serif", 18F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         lbTituloPrincipal.Location = New Point(469, 10)
         lbTituloPrincipal.Margin = New Padding(4, 0, 4, 0)
         lbTituloPrincipal.Name = "lbTituloPrincipal"
-        lbTituloPrincipal.Size = New Size(354, 54)
+        lbTituloPrincipal.Size = New Size(349, 36)
         lbTituloPrincipal.TabIndex = 14
         lbTituloPrincipal.Text = "AÑADIR VIDEOJUEGO"
-        '
+        ' 
         ' Form2
-        '
-        AutoScaleDimensions = New SizeF(11.0F, 22.0F)
+        ' 
+        AutoScaleDimensions = New SizeF(11F, 22F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(1191, 557)
+        ClientSize = New Size(1249, 557)
         Controls.Add(lbTituloPrincipal)
         Controls.Add(tbAño)
         Controls.Add(tbSpeedrunner)
