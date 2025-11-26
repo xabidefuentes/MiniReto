@@ -98,4 +98,41 @@ Public Class Form1
         Form2.Show()
     End Sub
 
+    Private Sub btnEliminar_Click(sender As Object, e As EventArgs) Handles btnEliminar.Click
+        ' Verificar que haya un elemento seleccionado
+        If lvVideojuegos.SelectedItems.Count = 0 Then
+            MessageBox.Show("Selecciona un videojuego para eliminar.")
+            Return
+        End If
+
+        ' Mostrar mensaje de confirmación
+        Dim resultado As DialogResult = MessageBox.Show(
+        "¿Estás seguro de que quieres eliminar este videojuego?",
+        "Confirmar eliminación",
+        MessageBoxButtons.YesNo,
+        MessageBoxIcon.Warning
+    )
+
+        If resultado = DialogResult.No Then
+            Return ' Cancelar eliminación
+        End If
+
+        Dim index As Integer = lvVideojuegos.SelectedItems(0).Index
+
+        ' Mover los elementos a la izquierda para rellenar el hueco
+        For i As Integer = index To cantidad - 2
+            listaVideojuegos(i) = listaVideojuegos(i + 1)
+        Next
+
+        ' Reducimos la cantidad
+        cantidad -= 1
+
+        ' Limpiar el último elemento
+        listaVideojuegos(cantidad) = Nothing
+
+        ' Actualizar ListView
+        ActualizarListView()
+
+        MessageBox.Show("Videojuego eliminado correctamente.")
+    End Sub
 End Class

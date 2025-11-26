@@ -32,12 +32,13 @@ Partial Class Form1
         Label5 = New Label()
         Label6 = New Label()
         lvVideojuegos = New ListView()
+        btnEliminar = New Button()
         SuspendLayout()
         ' 
         ' btnGuardar
         ' 
         btnGuardar.Font = New Font("Reem Kufi", 16.2F, FontStyle.Bold)
-        btnGuardar.Location = New Point(387, 498)
+        btnGuardar.Location = New Point(246, 498)
         btnGuardar.Name = "btnGuardar"
         btnGuardar.Size = New Size(178, 67)
         btnGuardar.TabIndex = 1
@@ -47,7 +48,7 @@ Partial Class Form1
         ' btnAnadir
         ' 
         btnAnadir.Font = New Font("Reem Kufi", 16.2F, FontStyle.Bold)
-        btnAnadir.Location = New Point(692, 498)
+        btnAnadir.Location = New Point(545, 498)
         btnAnadir.Name = "btnAnadir"
         btnAnadir.Size = New Size(178, 67)
         btnAnadir.TabIndex = 2
@@ -123,11 +124,22 @@ Partial Class Form1
         lvVideojuegos.TabIndex = 9
         lvVideojuegos.UseCompatibleStateImageBehavior = False
         ' 
+        ' btnEliminar
+        ' 
+        btnEliminar.Font = New Font("Reem Kufi", 16.2F, FontStyle.Bold)
+        btnEliminar.Location = New Point(826, 498)
+        btnEliminar.Name = "btnEliminar"
+        btnEliminar.Size = New Size(178, 67)
+        btnEliminar.TabIndex = 10
+        btnEliminar.Text = "ELIMINAR"
+        btnEliminar.UseVisualStyleBackColor = True
+        ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(1282, 593)
+        Controls.Add(btnEliminar)
         Controls.Add(lvVideojuegos)
         Controls.Add(Label6)
         Controls.Add(Label5)
@@ -152,4 +164,5 @@ Partial Class Form1
     Friend WithEvents Label5 As Label
     Friend WithEvents Label6 As Label
     Friend WithEvents lvVideojuegos As ListView
+    Friend WithEvents btnEliminar As Button
 End Class
