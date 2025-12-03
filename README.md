@@ -38,8 +38,10 @@ End Sub
 ```
 
 <Details>
-     <Summary>Spinner de prueba</Summary>
-     # Esto es una prueba
-     Lorem ipsum.
+     <Summary>Videojuegos disponibles</Summary>
+     # VIDEOJUEGOS:  
+     + Minecraft
+     + League of Legends
+     + GTA5
 </details>
 **Creadores:**  ***Nekane Minguito, Xabier De Fuentes, Mikel Gonzalez, Maialen Perez***
