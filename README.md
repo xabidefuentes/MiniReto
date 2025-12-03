@@ -37,12 +37,14 @@ Public Sub anadirVideojuego(videojuego As Videojuego)
 End Sub
 ```
 
-<Details>
+<Details open>
      <Summary>Videojuegos disponibles</Summary>
-## VIDEOJUEGOS:  
-+ Minecraft
-+ League of Legends
-+ GTA5
+
+     ## VIDEOJUEGOS:
+
+     + Minecraft
+     + League of Legends
+     + GTA5
 </details>
 
 **Creadores:**  ***Nekane Minguito, Xabier De Fuentes, Mikel Gonzalez, Maialen Perez***
