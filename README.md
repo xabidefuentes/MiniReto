@@ -7,11 +7,10 @@ Es un programa para gestionar *videojuegos*, se pueden dar de alta, eliminar y g
 + Estudio
 + Tiempo de speedrun
 + Speedruner
-+ Año de estreno   
++ Año de estreno
+     
 | Titulo | Consola | Estudio | Tiempo de speedrun | Speedruner |Año de estreno |  
-|-----| |-----|  |-----|  |-----|  |-----|  |-----|   
-Xabi
-Nekane
-Maialen
-Mikel
+|-----|-----|-----|-----|-----|-----|
+| Pokemon | Nintendo | Gamefreak | 30000 |Jonathan| 2025 |  
+
 **Creadores:**  ***Nekane Minguito, Xabier De Fuentes, Mikel Gonzalez, Maialen Perez***
