@@ -36,4 +36,10 @@ Public Sub anadirVideojuego(videojuego As Videojuego)
     ActualizarListView()
 End Sub
 ```
+
+<Details>
+     <Summary>Spinner de prueba</Summary>
+     # Esto es una prueba
+     Lorem ipsum.
+</details>
 **Creadores:**  ***Nekane Minguito, Xabier De Fuentes, Mikel Gonzalez, Maialen Perez***
