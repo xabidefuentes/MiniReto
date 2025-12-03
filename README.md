@@ -17,4 +17,20 @@ Es un programa para gestionar *videojuegos*, se pueden dar de alta, eliminar y g
 
   ## IMAGEN 
   ![IMAGEN](https://occ-0-8407-2218.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABdUHPu2AmsdSwALVHPueZYcsNPLb_ULHcKprf8oHIA3LZhB4MyCIbygPM_Lb3qZGtMTCo0LxB25YuEhgnv-zumVhHpeLOywhF4SL.jpg?r=db8)  
+   ```basic
+Public Sub anadirVideojuego(videojuego As Videojuego)
+    ' Comprobar que no se supera el límite del array
+    If cantidad >= listaVideojuegos.Length Then
+        MessageBox.Show("No se pueden añadir más videojuegos (límite alcanzado).")
+        Return
+    End If
+
+    ' Añadir el videojuego al array
+    listaVideojuegos(cantidad) = videojuego
+    cantidad += 1
+
+    ' Actualizar la interfaz
+    ActualizarListView()
+End Sub
+```
 **Creadores:**  ***Nekane Minguito, Xabier De Fuentes, Mikel Gonzalez, Maialen Perez***
