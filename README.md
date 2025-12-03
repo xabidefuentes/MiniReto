@@ -10,7 +10,7 @@ Es un programa para gestionar *videojuegos*, se pueden dar de alta, eliminar y g
 + Año de estreno
      
 | Titulo | Consola | Estudio | Tiempo de speedrun | Speedruner |Año de estreno |  
-|-----|-----|-----|-----|-----|-----|
+| :----: | :----- | -----: | :-------: | :------ | ------: | 
 | Pokemon | Nintendo | Gamefreak | 30000 |Jonathan| 2025 |  
   
   [AQUI TIENES EL ENLACE AL PROYECTO](https://github.com/xabidefuentes/MiniReto/edit/main/README.md)  
